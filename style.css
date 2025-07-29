@@ -1,0 +1,208 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+ 
+.icone-voltar >i {
+  font-size: 45px;
+  color: #4B1B00;
+  cursor: pointer;
+
+}
+
+
+.logo {
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 140px;
+}
+
+.cabecario { 
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  margin-top: -30px;
+  background-color: #D9C1AC;
+  border-bottom: 2px solid #4B1B00;
+}
+
+.icone-pesquisa {
+  font-size: 20px;
+  position: relative;
+  bottom: -39px;
+  margin-left: 110px;
+  cursor: pointer;
+}
+
+.texto-formulario {
+  background-size: 25px;
+  background-color: #c6a98e;
+  padding-left: 30px;
+  border: none;
+  border-radius: 8px;
+  color: #4B1B00;
+  width: 700px;
+  height: 50px;
+  margin-left: 103px;
+
+}
+
+body {
+  background-color: #D9C1AC;
+}
+
+
+.foto {
+  margin-left: 70px;
+  margin-top: 25px;
+  
+}
+
+section {
+  background-color:#4B1B00;
+  color: white;
+  display: flex;
+  width: 900px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 90px;
+}
+
+.luna-foto {
+  display: flex;
+
+}
+
+.luna-foto h2 {
+  margin-top: 4px;
+  margin-left: 7px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #C29D7C
+
+}
+
+.luna-foto h5 {
+margin-top: 35px ;
+margin-left:-123px ;
+color: #C29D7C;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+  margin-top: 70px ;
+  margin-left: -130px;
+}
+
+.livro1 {
+margin-left: 20px;
+}
+
+.parte2{
+  margin-top: 20px;
+}
+
+.carlita {
+  display: flex;
+}
+
+.carlita h2 {
+  margin-top: 4px;
+  margin-left: 7px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #C29D7C
+}
+
+.carlita h5 {
+  margin-top: 35px ;
+margin-left:-188px ;
+color: #C29D7C;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texto2 {
+  margin-top: 70px ;
+  margin-left: -100px;
+}
+
+.coração  {
+  margin-top: 170px;
+  font-size: 30px;
+  color: #C29D7C;
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+
+.botao-coracao.animar {
+  transform: scale(1.4);
+}
+
+.gabriel {
+  display: flex;
+  margin-left: -85px;
+}
+
+.foto6 {
+  margin-left: 80px;
+}
+
+.gabriel h2 {
+   margin-top: -6px;
+  margin-left: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #C29D7C
+}
+
+.gabriel h5{
+margin-top: 50px ;
+margin-left:-85px ;
+color: #C29D7C;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.texto3 {
+  margin-top: 90px ;
+  margin-left: -100px;
+}
+
+.parte3{
+  margin-top: 30px;
+}
+
+.livro3 {
+  margin-left: 20px;
+}
+
+
+footer {
+  background-color: #4B1B00;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-sizing: border-box;
+  font-family: 'Inclusive Sans', sans-serif;
+  font-size: 16px;
+}
+
+.redes-sociais i {
+  font-size: 28px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.redes-sociais i:hover {
+  color: #888;
+}
+
+.texto-footer{
+  margin-left: -20px;
+  margin-top: 10px;
+}
+

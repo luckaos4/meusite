@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resenhas</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <header class="cabecario">
+      <div class="icone-voltar">
+     <i class="bi bi-chevron-left"></i>
+      </div>
+    
+   <img class="logo" src="/imagens/logo.webp" alt="logo"  height="100">
+     <div class="icone-voltar">
+      <div class="icone-pesquisa" onclick="document.getElementById('pesquisa').focus()">
+     <i class="bi bi-search"></i> </div>
+     <input class="texto-formulario" type="text"  id="pesquisa" placeholder="Pesquisar ">
+      </div>
+      <img class="foto" src="/imagens/foto-perfil.webp" height="80px" alt="foto">
+
+  </header>
+  
+  <section >
+    <div class="luna-foto">
+  <img src="/imagens/luna.webp" width="50px" height="50px" alt="foto">
+  <h2>Luna.books</h2> 
+  <h5>AudioBook</h5></div>
+    <p class="texto1"> Esse livro é tipo um abraço em forma de palavras. A gente conhece a Nora, que está passando por um momento super difícil e acaba numa biblioteca entre a vida e a morte. Lá, cada livro mostra uma vida diferente que ela poderia ter vivido. A história faz a gente pensar sobre escolhas, arrependimentos e como a vida que temos pode ser mais valiosa do que imaginamos. É uma leitura leve, mas cheia de reflexões, perfeita pra quem curte histórias com um toque de fantasia e muita emoção.</p>
+    <img class="livro1" src="/imagens/livro1.jpg" width="100px" height="150px" alt="livro">
+    <div class="coração"> 
+    <i class="bi bi-heart" onclick="toggleCoração(this)"> </i>
+  </div>
+  </section>
+  
+   <section class="parte2" >
+    <div class="carlita">
+  <img src="https://cdn.discordapp.com/attachments/1379414865822748832/1379453858094252194/Intersect.png?ex=68404c04&is=683efa84&hm=dbc466b648114a371f21adc0a82fd594ce1d0c33fd49f15e8e4df3fabef0dc8a&" width="50px" height="50px" alt="foto">
+  <h2>Carleitora.carlita</h2> 
+  <h5>Fisico</h5></div>
+    <p class="texto2"> Príncipe Cruel é uma excelente escolha para fãs de fantasia sombria e intriga política. Holly Black cria um mundo fascinante, cheio de reviravoltas e personagens cativantes, que nos mantêm ansiosos pela continuação da história. Se você gosta de histórias com fadas, mas não aquelas em que elas são simplesmente encantadoras e bondosas, este livro é perfeito.</p>
+    <img class="livro2" src="/imagens/livro2.jpg" width="100px" height="150px" alt="livro" >
+    <div class="coração"> 
+    <i class="bi bi-heart" onclick="toggleCoração(this)"></i>
+  </div>
+  </section>
+
+  <section class="parte3">
+  <div class="gabriel">
+    <img class="foto6" src="https://cdn-icons-png.flaticon.com/512/219/219969.png" height="60px" alt="foto-usuario">
+    <h2>Gabriel Santos</h2>
+    <h5>Fisico</h5>
+  </div>
+  <p class="texto3">
+    “Nunca imaginei que um romance pudesse ser tão impactante. Colleen Hoover destrói e reconstrói o leitor com essa história poderosa. Vale cada página.”
+  </p>
+  <img class="livro3" src="/imagens/livro3.jpg"width="100px" height="150px">
+  <div class="coração">
+  <i class="bi bi-heart" onclick="toggleCoração(this)"></i></div>
+</section>
+<script>
+  function toggleCoração(elemento) {
+    elemento.classList.toggle('ativo');
+    if (elemento.classList.contains('bi-heart')) {
+      elemento.classList.remove('bi-heart');
+      elemento.classList.add('bi-heart-fill');
+    } else {
+      elemento.classList.remove('bi-heart-fill');
+      elemento.classList.add('bi-heart');
+    }
+  }
+</script>
+<footer>
+            <p class="texto-footer"> &copy 2025 Vitrine Literaria. Todos os direitos reservados.</p>
+        <div class="redes-sociais">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-facebook"></i>
+        </div>
+    </footer>
+</body>
+</html>
